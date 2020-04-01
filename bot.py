@@ -29,7 +29,7 @@ async def userinfo(ctx, user: discord.Member):
     embed.add_field(name="Status", value=user.status, inline=True)
     embed.add_field(name="Highest role", value=user.top_role)
     embed.add_field(name="Joined", value=user.joined_at)
-    embed.add_footer(BY MAHI#6044)
+    embed.add_footer(by mahi)
     embed.add_color(#FF1493)
     embed.set_thumbnail(url=user.avatar_url)
     await client.say(embed=embed)
